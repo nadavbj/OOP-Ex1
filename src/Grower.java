@@ -13,6 +13,6 @@ public class Grower {
 		return flowerBouquet;
 	}
 	public String getName() {
-		return "grower";
+		return "Grower";
 	}
 }

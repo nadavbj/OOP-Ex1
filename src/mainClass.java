@@ -6,7 +6,7 @@ public class mainClass {
 		DeliveryPerson deliveryPerson=new DeliveryPerson(robin);
 		Gardener gardener=new Gardener();
 		Grower grower=new Grower(gardener);
-		WholeSaler wholeSaler=new WholeSaler(grower);
+		Wholesaler wholeSaler=new Wholesaler(grower);
 		FlowerArranger flowerArranger=new FlowerArranger();
 		RobbinsFlorist robbinsFlorist=new RobbinsFlorist(wholeSaler, flowerArranger, deliveryPerson);
 		Fred fred=new Fred(robbinsFlorist);

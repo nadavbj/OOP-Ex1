@@ -1,9 +1,9 @@
 
 public class RobbinsFlorist {
-	private WholeSaler wholeSaler;
+	private Wholesaler wholeSaler;
 	private FlowerArranger flowerArranger;
 	private DeliveryPerson deliveryPerson;
-	public RobbinsFlorist(WholeSaler wholeSaler, FlowerArranger flowerArranger, DeliveryPerson deliveryPerson) {
+	public RobbinsFlorist(Wholesaler wholeSaler, FlowerArranger flowerArranger, DeliveryPerson deliveryPerson) {
 		this.wholeSaler=wholeSaler;
 		this.flowerArranger=flowerArranger;
 		this.deliveryPerson=deliveryPerson;
@@ -18,6 +18,6 @@ public class RobbinsFlorist {
 		deliveryPerson.sendFlowers(flowerBouquet);
 	}
 	public static String getName(){
-		return "Robbin's florist";
+		return "Robbin's Florist";
 	}
 }

@@ -1,8 +1,8 @@
 
-public class WholeSaler {
+public class Wholesaler {
 
 	private Grower grower;
-	public WholeSaler(Grower grower) {
+	public Wholesaler(Grower grower) {
 		this.grower=grower;
 	}
 	public FlowerBouquet getFlowers(String flowersNames) {
@@ -12,6 +12,6 @@ public class WholeSaler {
 		return flowerBouquet;
 	}
 	public  String getName() {
-		return "whole saler";
+		return "Wholesaler";
 	}
 }

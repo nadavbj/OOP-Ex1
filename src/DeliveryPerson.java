@@ -9,6 +9,6 @@ public void sendFlowers(FlowerBouquet flowerBouquet) {
 	robin.reciveFlower(flowerBouquet);
 }
 public static String getName() {
-	return "delivery person";
+	return "Delivery person";
 }
 }

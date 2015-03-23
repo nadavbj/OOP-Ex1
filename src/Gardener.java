@@ -7,6 +7,6 @@ public class Gardener {
 		return new FlowerBouquet(flowersNames);
 	}
 	public String getName() {
-		return "gardener";
+		return "Gardener";
 	}
 }
